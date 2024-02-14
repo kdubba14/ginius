@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/gin-contrib/gzip"
-	"github.com/yakuter/ugin/controller"
-	"github.com/yakuter/ugin/pkg/logger"
-	"github.com/yakuter/ugin/pkg/middleware"
+	"github.com/kdubba14/ginius/controller"
+	"github.com/kdubba14/ginius/pkg/logger"
+	"github.com/kdubba14/ginius/pkg/middleware"
 	"gorm.io/gorm"
 
 	"github.com/gin-gonic/gin"
@@ -17,7 +17,7 @@ func Setup(db *gorm.DB) *gin.Engine {
 	r := gin.New()
 
 	// Write gin access log to file
-	f, err := os.OpenFile("ugin.access.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	f, err := os.OpenFile("ginius.access.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		logger.Errorf("Failed to create access log file: %v", err)
 	} else {

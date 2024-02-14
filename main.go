@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/spf13/viper"
-	"github.com/yakuter/ugin/pkg/config"
-	"github.com/yakuter/ugin/pkg/database"
-	"github.com/yakuter/ugin/pkg/logger"
-	"github.com/yakuter/ugin/pkg/router"
+	"github.com/kdubba14/ginius/pkg/config"
+	"github.com/kdubba14/ginius/pkg/database"
+	"github.com/kdubba14/ginius/pkg/logger"
+	"github.com/kdubba14/ginius/pkg/router"
 )
 
 func main() {

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/spf13/viper"
-	"github.com/yakuter/ugin/model"
+	"github.com/kdubba14/ginius/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
@@ -57,7 +57,7 @@ func Setup() error {
 
 	switch driver {
 	case "sqlite":
-		db, err = gorm.Open(sqlite.Open("ugin.db"), &gorm.Config{Logger: newDBLogger})
+		db, err = gorm.Open(sqlite.Open("ginius.db"), &gorm.Config{Logger: newDBLogger})
 	case "mysql":
 		dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True", username, password, host, port, dbname)
 		db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{Logger: newDBLogger})
@@ -94,7 +94,7 @@ func GetDBErr() error {
 }
 
 func getWriter() io.Writer {
-	file, err := os.OpenFile("ugin.db.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	file, err := os.OpenFile("ginius.db.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		return os.Stdout
 	} else {

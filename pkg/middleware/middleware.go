@@ -8,8 +8,8 @@ import (
 	"github.com/didip/tollbooth"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt"
-	"github.com/yakuter/ugin/pkg/config"
-	"github.com/yakuter/ugin/service"
+	"github.com/kdubba14/ginius/pkg/config"
+	"github.com/kdubba14/ginius/service"
 )
 
 var (

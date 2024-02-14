@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt"
-	"github.com/yakuter/ugin/model"
-	"github.com/yakuter/ugin/pkg/config"
+	"github.com/kdubba14/ginius/model"
+	"github.com/kdubba14/ginius/pkg/config"
 )
 
 // CreateToken method

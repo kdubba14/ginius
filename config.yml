@@ -1,6 +1,6 @@
 database:
   driver: "sqlite"
-  dbname: "ugin"
+  dbname: "ginius"
   username: "user"
   password: "password"
   host: "localhost"
@@ -10,6 +10,6 @@ database:
 server:
   port: "8081"
   secret: "mySecretKey"
-  accessTokenExpireDuration: 1 
+  accessTokenExpireDuration: 1
   refreshTokenExpireDuration: 1
-  limitCountPerRequest: 1 
+  limitCountPerRequest: 1

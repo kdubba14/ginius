@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/spf13/viper"
-	"github.com/yakuter/ugin/pkg/logger"
+	"github.com/kdubba14/ginius/pkg/logger"
 )
 
 var Config *Configuration

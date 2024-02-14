@@ -1,5 +1,5 @@
 build-image:
-	docker build -t ugin -f containers/images/Dockerfile .
+	docker build -t ginius -f containers/images/Dockerfile .
 
 run-app-mysql:
 	docker-compose -f containers/composes/dc.mysql.yml up

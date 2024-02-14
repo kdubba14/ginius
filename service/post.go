@@ -2,8 +2,8 @@ package service
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/yakuter/ugin/model"
-	"github.com/yakuter/ugin/pkg/logger"
+	"github.com/kdubba14/ginius/model"
+	"github.com/kdubba14/ginius/pkg/logger"
 	"gorm.io/gorm"
 )
 

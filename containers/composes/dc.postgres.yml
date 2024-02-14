@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   postgres:
@@ -7,9 +7,9 @@ services:
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: ugin
+      POSTGRES_DB: ginius
   server:
-    image: ugin
+    image: ginius
     deploy:
       replicas: 1
     restart: always

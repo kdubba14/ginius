@@ -1,4 +1,4 @@
-module github.com/yakuter/ugin
+module github.com/kdubba14/ginius
 
 go 1.17
 

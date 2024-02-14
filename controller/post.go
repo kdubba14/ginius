@@ -2,8 +2,8 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/yakuter/ugin/model"
-	"github.com/yakuter/ugin/service"
+	"github.com/kdubba14/ginius/model"
+	"github.com/kdubba14/ginius/service"
 )
 
 var err error

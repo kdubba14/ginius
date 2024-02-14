@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt"
-	"github.com/yakuter/ugin/model"
-	"github.com/yakuter/ugin/service"
+	"github.com/kdubba14/ginius/model"
+	"github.com/kdubba14/ginius/service"
 )
 
 var (
